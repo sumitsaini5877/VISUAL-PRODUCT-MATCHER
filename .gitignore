@@ -1,0 +1,43 @@
+# Node.js dependencies
+/node_modules/
+
+# Logs
+*.log
+logs
+*.log.*
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# npm package-lock files
+package-lock.json
+npm-debug.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Build output
+/dist/
+/build/
+
+# Temporary files
+*.swp
+*.swo
+
+# IDEs and editors (e.g., Visual Studio Code, JetBrains)
+.vscode/
+.idea/
+
+# Coverage directory (for code coverage)
+/coverage/
+
+# Testing
+/karma-coverage/
+
+# Optional directories for deploying (e.g., Cloudinary temporary folders)
+uploads/
+
+# Other ignored files or folders can be added as needed

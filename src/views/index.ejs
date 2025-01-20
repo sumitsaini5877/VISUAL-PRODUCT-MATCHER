@@ -1,0 +1,48 @@
+
+        <h1 class="mt-5">All Products</h1>
+
+        <!-- Product Upload Form -->
+        <div class="mt-5">
+            <h3>Upload Products via CSV</h3>
+            <h6>    <a href="/data/products.csv">Download Sample CSV</a></h6>
+            <form action="/products/upload" method="POST" enctype="multipart/form-data">
+                <div class="form-group">
+                    <input type="file" name="csvFile" class="form-control" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Upload CSV</button>
+            </form>
+        </div>
+
+        <!-- Product List -->
+        <div class="mt-5">
+            <h3>Product List</h3>
+            <div class="row">
+                <% products.forEach(product => { %>
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img class="card-img-top" src="http://localhost:3000/<%= product.path %>" alt="<%= product.name %>">
+                            <div class="card-body">
+                                <h5 class="card-title"><%= product.name %></h5>
+                                <p class="card-text"><%= product.description %></p>
+                                <p class="card-text"><strong>Price:</strong> $<%= product.price %></p>
+                                <p class="card-text"><strong>Category:</strong> <%= product.category %></p>
+                            </div>
+                        </div>
+                    </div>
+                <% }) %>
+            </div>
+
+            <!-- Pagination Section -->
+            <div>
+                <ul class="pagination">
+                    <li class="page-item <%= currentPage <= 1 ? 'disabled' : '' %>">
+                        <a class="page-link" href="/?page=<%= currentPage - 1 %>&limit=<%= limit %>">Previous</a>
+                    </li>
+                    <li class="page-item <%= currentPage >= totalPages ? 'disabled' : '' %>">
+                        <a class="page-link" href="/?page=<%= currentPage + 1 %>&limit=<%= limit %>">Next</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    

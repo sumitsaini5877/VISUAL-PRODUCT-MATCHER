@@ -1,0 +1,42 @@
+  <div class="row">
+    <div class="col-md-6 mx-auto">
+      <h2 class="text-center mb-4">Upload an Image to Find Similar Products</h2>
+
+      <!-- Image Upload Form -->
+      <form action="/upload" method="POST" enctype="multipart/form-data" class="border p-4 rounded shadow-sm">
+        <div class="form-group">
+          <label for="imageUpload">Upload Image</label>
+          <input type="file" class="form-control-file" id="imageUpload" name="image" required>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Upload & Find Similar Products</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Similar Products Section -->
+  <div class="row mt-5" id="resultsSection">
+    <% if (similarProducts && similarProducts.length) { %>
+      <div class="col-md-12">
+        <h3 class="text-center">Similar Products</h3>
+        <div class="row">
+          <% similarProducts.forEach(product => { %>
+            <div class="col-md-3 mb-4">
+              <div class="card">
+                <img src="<%= product.path %>" class="card-img-top" alt="<%= product.name %>">
+                <div class="card-body">
+                  <h5 class="card-title"><%= product.name %></h5>
+                  <p class="card-text"><%= product.description %></p>
+                  <p class="card-text"><strong>Category:</strong> <%= product.category %></p>
+                  <a href="#" class="btn btn-primary">View Product</a>
+                </div>
+              </div>
+            </div>
+          <% }) %>
+        </div>
+      </div>
+    <% } else { %>
+      <div class="col-md-12">
+        <p class="text-center">No similar products found yet. Please upload an image.</p>
+      </div>
+    <% } %>
+  </div>
