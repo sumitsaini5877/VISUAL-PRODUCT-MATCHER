@@ -33,7 +33,8 @@ app.use(express.json());
 //   res.send('Hello, World!');
 // });
 // Routes
-app.use("/", imageRoutes);
+
+app.use("/image", imageRoutes);
 app.use("/products", productRoutes);
 
 // View engine setup
