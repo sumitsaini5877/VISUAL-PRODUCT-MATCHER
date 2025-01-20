@@ -54,7 +54,7 @@ async function processAndSaveProductData(products) {
 // Download image from URL
 async function downloadImage(url, productName) {
     try {
-        const filePath = path.join('./public/sample', `${productName}-${Date.now()}.jpg`);
+        const filePath = path.join('./sample', `${productName}-${Date.now()}.jpg`);
         const writer = fs.createWriteStream(filePath);
 
         // Download the image

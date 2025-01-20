@@ -32,17 +32,20 @@ async function searchImage(req, res) {
     
       console.log(result.url);
       
-    similarImages = await findSimilarImages(result.url);
+   // similarImages = await findSimilarImages(result.url);
+    res.redirect('/?similar=${result.url}');
   }
 
 
   if(imageUrl){
     console.log(imageUrl);
     
-    similarImages = await findSimilarImages(imageUrl);
+    //similarImages = await findSimilarImages(imageUrl);
+    res.redirect('/?similar=${result.url}');
   }
     
     // Step 5: Return the analysis result and any similar images
+    
     res.json({
       'similar_images': similarImages,
       message:'image upload '

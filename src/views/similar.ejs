@@ -15,11 +15,15 @@
 
   <!-- Similar Products Section -->
   <div class="row mt-5" id="resultsSection">
-    <% if (similarProducts && similarProducts.length) { %>
+    <% 
+      if (similarProducts && similarProducts.length) {
+    %>
       <div class="col-md-12">
         <h3 class="text-center">Similar Products</h3>
         <div class="row">
-          <% similarProducts.forEach(product => { %>
+          <% similarProducts.forEach(product => { 
+            
+          %>
             <div class="col-md-3 mb-4">
               <div class="card">
                 <img src="<%= product.path %>" class="card-img-top" alt="<%= product.name %>">
