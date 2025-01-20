@@ -34,7 +34,7 @@ app.use(express.json());
 // });
 // Routes
 
-app.use("/image", imageRoutes);
+app.use("/", imageRoutes);
 app.use("/products", productRoutes);
 
 // View engine setup
