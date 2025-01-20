@@ -31,8 +31,8 @@ app.use(express.json());
 
 
 // Routes
-app.use("/", imageRoutes);
-app.use("/products", productRoutes);
+app.use("/api/", imageRoutes);
+app.use("/api/products", productRoutes);
 
 // View engine setup
 app.set("view engine", "ejs");

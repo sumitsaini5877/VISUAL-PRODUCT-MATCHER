@@ -41,3 +41,4 @@ Thumbs.db
 uploads/
 
 # Other ignored files or folders can be added as needed
+.vercel
