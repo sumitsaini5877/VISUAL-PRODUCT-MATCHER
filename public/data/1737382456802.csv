@@ -1,0 +1,51 @@
+ID,Name,Category,ImageURL,Price,Description
+1,Jeans 1,Jeans,/images/ecommerce/jeans/1.jpg,29.99,Comfortable denim jeans in various sizes.
+2,Jeans 2,Jeans,/images/ecommerce/jeans/2.jpg,34.99,Stylish skinny jeans with a modern fit.
+3,Jeans 3,Jeans,/images/ecommerce/jeans/3.jpg,39.99,Classic blue jeans with a tapered fit.
+4,Jeans 4,Jeans,/images/ecommerce/jeans/4.jpg,25.99,Relaxed fit denim jeans for everyday use.
+5,Jeans 5,Jeans,/images/ecommerce/jeans/5.jpg,27.99,High-waisted jeans with a touch of stretch.
+6,Sofa 1,Sofa,/images/ecommerce/sofa/1.jpg,399.99,Luxury 3-seater sofa with premium fabric.
+7,Sofa 2,Sofa,/images/ecommerce/sofa/2.jpg,499.99,Modern sectional sofa with recliner features.
+8,Sofa 3,Sofa,/images/ecommerce/sofa/3.jpg,349.99,Comfortable fabric sofa with soft cushions.
+9,Sofa 4,Sofa,/images/ecommerce/sofa/4.jpg,299.99,Compact 2-seater sofa ideal for smaller spaces.
+10,Sofa 5,Sofa,/images/ecommerce/sofa/5.jpg,699.99,High-end leather sofa with adjustable headrests.
+11,T-shirt 1,T-shirt,/images/ecommerce/tshirt/1.jpg,19.99,Cotton t-shirt with a graphic print.
+12,T-shirt 2,T-shirt,/images/ecommerce/tshirt/2.jpg,17.99,Solid color t-shirt for casual wear.
+13,T-shirt 3,T-shirt,/images/ecommerce/tshirt/3.jpg,22.99,Round-neck t-shirt in soft cotton fabric.
+14,T-shirt 4,T-shirt,/images/ecommerce/tshirt/4.jpg,15.99,Lightweight t-shirt perfect for the summer.
+15,T-shirt 5,T-shirt,/images/ecommerce/tshirt/5.jpg,18.99,Comfortable t-shirt with a modern fit.
+16,TV 1,TV,/images/ecommerce/tv/1.jpg,499.99,40-inch LED TV with smart features.
+17,TV 2,TV,/images/ecommerce/tv/2.jpg,699.99,55-inch 4K UHD TV with HDR support.
+18,TV 3,TV,/images/ecommerce/tv/3.jpg,799.99,65-inch OLED TV with incredible picture quality.
+19,TV 4,TV,/images/ecommerce/tv/4.jpg,399.99,32-inch HD TV for small rooms.
+20,TV 5,TV,/images/ecommerce/tv/5.jpg,1099.99,75-inch 8K TV with a sleek design.
+21,Jeans 6,Jeans,/images/ecommerce/jeans/6.jpg,32.99,Stretch-fit denim jeans with a slim profile.
+22,Jeans 7,Jeans,/images/ecommerce/jeans/7.jpg,37.99,Denim jeans with a distressed look.
+23,Jeans 8,Jeans,/images/ecommerce/jeans/8.jpg,29.99,Comfortable fit jeans with a casual look.
+24,Jeans 9,Jeans,/images/ecommerce/jeans/9.jpg,33.99,High-rise jeans with a flattering fit.
+25,Jeans 10,Jeans,/images/ecommerce/jeans/10.jpg,30.99,Stretchy denim with a modern slim fit.
+26,Sofa 6,Sofa,/images/ecommerce/sofa/6.jpg,379.99,Modern fabric sofa with deep seating.
+27,Sofa 7,Sofa,/images/ecommerce/sofa/7.jpg,549.99,Large sectional sofa with adjustable headrests.
+28,Sofa 8,Sofa,/images/ecommerce/sofa/8.jpg,399.99,Compact sofa with soft, supportive cushions.
+29,Sofa 9,Sofa,/images/ecommerce/sofa/9.jpg,329.99,2-seater sofa with a contemporary design.
+30,Sofa 10,Sofa,/images/ecommerce/sofa/10.jpg,699.99,Comfortable leather sofa with power recliners.
+31,T-shirt 6,T-shirt,/images/ecommerce/tshirt/6.jpg,21.99,Premium cotton t-shirt with bold prints.
+32,T-shirt 7,T-shirt,/images/ecommerce/tshirt/7.jpg,16.99,Lightweight casual t-shirt for daily wear.
+33,T-shirt 8,T-shirt,/images/ecommerce/tshirt/8.jpg,19.99,Soft cotton t-shirt in vibrant colors.
+34,T-shirt 9,T-shirt,/images/ecommerce/tshirt/9.jpg,24.99,Graphic t-shirt with a trendy design.
+35,T-shirt 10,T-shirt,/images/ecommerce/tshirt/10.jpg,20.99,Comfortable t-shirt with a classic design.
+36,TV 6,TV,/images/ecommerce/tv/6.jpg,849.99,60-inch UHD TV with smart features.
+37,TV 7,TV,/images/ecommerce/tv/7.jpg,599.99,50-inch 4K TV with Dolby Vision.
+38,TV 8,TV,/images/ecommerce/tv/8.jpg,1099.99,65-inch QLED TV with great color accuracy.
+39,TV 9,TV,/images/ecommerce/tv/9.jpg,699.99,40-inch smart TV with Android OS.
+40,TV 10,TV,/images/ecommerce/tv/10.jpg,799.99,55-inch 4K TV with curved screen.
+41,Jeans 11,Jeans,/images/ecommerce/jeans/11.jpg,28.99,Relaxed fit jeans with a cool design.
+42,Jeans 12,Jeans,/images/ecommerce/jeans/12.jpg,35.99,Comfortable denim jeans with a loose fit.
+43,Jeans 13,Jeans,/images/ecommerce/jeans/13.jpg,40.99,High-rise, wide-leg denim jeans.
+44,Jeans 14,Jeans,/images/ecommerce/jeans/14.jpg,31.99,Classic blue jeans with a regular fit.
+45,Jeans 15,Jeans,/images/ecommerce/jeans/15.jpg,33.99,Comfortable stretch-fit jeans for everyday wear.
+46,Sofa 11,Sofa,/images/ecommerce/sofa/11.jpg,349.99,Modern fabric sofa with soft cushions.
+47,Sofa 12,Sofa,/images/ecommerce/sofa/12.jpg,459.99,Large corner sofa with soft seating.
+48,Sofa 13,Sofa,/images/ecommerce/sofa/13.jpg,399.99,Comfortable 2-seater sofa ideal for smaller spaces.
+49,Sofa 14,Sofa,/images/ecommerce/sofa/14.jpg,529.99,Premium leather sofa with a contemporary style.
+50,Sofa 15,Sofa,/images/ecommerce/sofa/15.jpg,699.99,High-end sectional sofa with power recliners.

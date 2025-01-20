@@ -23,6 +23,8 @@ async function processAndSaveProductData(products) {
     for (const product of products) {
         $i++;
         const { ImageURL, Name, Description, Category } = product; // Assuming these fields in the product record
+        console.log("image is ",ImageURL);
+        
         const imageUrlWithBasePath = 'https://visual-product-matcher-gcol.onrender.com' + ImageURL;
         console.log(imageUrlWithBasePath);
         // 1. Download image from URL
