@@ -6,8 +6,8 @@ const multer = require('multer');
 // Set up multer for file upload (CSV)
 const storage = multer.memoryStorage();
 const upload = multer({ storage: storage });
-
-router.post('/upload', upload.single('image'), searchImage);
 router.get("/", showImages);
+router.post('/upload', upload.single('image'), searchImage);
+
 
 module.exports = router;
