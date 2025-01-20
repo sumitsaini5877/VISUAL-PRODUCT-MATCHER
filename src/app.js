@@ -29,10 +29,12 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 
-
+app.get('/', (req, res) => {
+  res.send('Hello, World!');
+});
 // Routes
-app.use("/api/", imageRoutes);
-app.use("/api/products", productRoutes);
+app.use("/", imageRoutes);
+app.use("/products", productRoutes);
 
 // View engine setup
 app.set("view engine", "ejs");
